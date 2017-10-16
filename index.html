@@ -17,8 +17,6 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script src="assets/js/frontController.js"></script>
-		<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -26,19 +24,14 @@
 			<!-- Header -->
 				<div id="header">
 
-					<!-- Logo -->
-						<!-- 
-						Logotipo <h1><a href="index.html" id="logo">Good Times <em>by UNOS</em></a></h1> 
-						-->
-
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="javascript:goPage(1001)">Home</a></li>
-								<li><a href="javascript:goPage(2001)">Entretenimiento</a></li>
-								<li><a href="javascript:goPage(3001)">Lugares de Interes</a></li>
-								<li><a href="javascript:goPage(4001)">Ciencia y Estadisticas</a></li>
-								<li><a href="javascript:goPage(5001)">Contacto</a></li>
+								<li class="current"><a href="display/bienvenida.html">Home</a></li>
+								<li><a href="display/entretenimiento.html">Entretenimiento</a></li>
+								<li><a href="display/lugares_de_interes.html">Lugares de Interes</a></li>
+								<li><a href="display/ciencia_y_estadisticas.html">Ciencia y Estadisticas</a></li>
+								<li><a href="display/contacto.html">Contacto</a></li>
 							</ul>
 						</nav>
 
@@ -51,25 +44,20 @@
 					</header>
 				</section>
 
-			<!-- Se carga la Pagina default-->
-			<script>
-			window.onload = function(){
-				goPage(1001);
-			}
-			</script>
-			
-			<!-- Div_screen-->
-			<div id='cuerpo'>
+			<!-- COMIENZO PAGINA bienvenida-->
+			<div id="main">
 				<div id="w" class="container center">
 					<div class="row-fluid">
 						<div class="span12">
-							<div  id="div_screen">
-								<!-- Aqui se cargara la pagina-->
+							<div class="inner">
+								<h2>Un sitio donde relajarse</h2>
+								<p>Nos da mucho gusto que estes aqui, desde ya agradecemos tu inmejorable compania. En este sitio encontraras distintas secciones para tu destendimiento. Lo mas importante es que encuentres lo que mas te interese, tenemos secciones desde entretenimiento, ciencias y tecnologias y hasta una seccion donde te recomendamos lugares para visitar. Solo nos queda decirte que disfrutes del sitio y cualquier inquietud o recomendacion sera bienvenida.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- FIN PAGINA bienvenida-->
 
 			<!-- Footer -->
 				<div id="footer">
